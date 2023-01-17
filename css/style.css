@@ -77,13 +77,9 @@ h3::before {
     margin: 10px 0px;
 }
 
-.spunta-verde {
-    font-weight: bold;
-    padding: 5px;
-    font-size: 6px;
-    border: 1px solid green;
-    color: green;
-    border-radius: 50%;
+.spunta-verde::before {
+    content: '\2611';
+    
 
 }
 
@@ -118,4 +114,9 @@ h3::before {
     border-radius: 10px;
     text-align: center;
     padding-top: 5px;
+}
+
+.cerchio-rosso::before{
+    content: '\2297';
+    color: red;
 }
