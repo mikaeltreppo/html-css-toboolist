@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-span{
+span {
     display: inline-block;
 }
 
@@ -63,32 +63,34 @@ body {
 
 
 
-.new-task,.today,.upcoming{
+.new-task,
+.today,
+.upcoming {
     margin: 30px 0px 30px 35px;
 }
 
-h3::before{
+h3::before {
     content: "\2714";
 }
 
-.elementinlist{
+.elementinlist {
     margin: 10px 0px;
 }
 
-.spunta-verde{
+.spunta-verde {
     font-weight: bold;
     padding: 5px;
     font-size: 6px;
     border: 1px solid green;
     color: green;
     border-radius: 50%;
-    
+
 }
 
-.descrizioni.blu{
+.descrizioni.blu {
     height: 20px;
     width: 50px;
-    background-color:#38AAFF;
+    background-color: #38AAFF;
     color: white;
     font-size: 10px;
     border-radius: 10px;
@@ -98,4 +100,22 @@ h3::before{
 
 .descrizioni.viola {
     background-color: #AB5CE6;
+    height: 20px;
+    width: 70px;
+    color: white;
+    font-size: 10px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.descrizioni.verde {
+    background-color:#2CC6AB;
+    height: 20px;
+    width: 70px;
+    color: white;
+    font-size: 10px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
 }
