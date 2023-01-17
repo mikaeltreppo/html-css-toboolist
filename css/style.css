@@ -24,7 +24,7 @@ body {
     vertical-align: middle;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
@@ -88,27 +88,29 @@ h3::before {
     margin: 8px 0px;
 }
 
-.spunta-verde::before {
-    color: #5FD3C0;
-    content: '\2713';
-    border: 1px solid #5FD3C0;
+.spunta-verde {
+    width: 14px;
+    height: 14px;
+    font-size: 9px;
+    border: solid 1px green;
     border-radius: 50%;
-    padding: 1px 3px;
-    font-size: 8px;
-    font-weight: bolder;
-
+    color: green;
+    text-align: center;
 }
 
-.cerchio-rosso::before {
-    content: "\2715";
+
+
+.cerchio-rosso {
+    width: 14px;
+    height: 14px;
+    font-size: 10px;
+    border: solid 1px red;
+    border-radius: 50%;
     color: red;
-    border: 1px solid red;
-    border-radius: 50%;
-    padding: 0.5px 2px;
-    font-size: 8px;
-  
+    text-align: center;
 
 }
+
 
 .descrizioni {
     color: white;
